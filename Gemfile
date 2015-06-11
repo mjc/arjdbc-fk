@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 
-gem 'activerecord-jdbc-adapter', github: 'jruby/activerecord-jdbc-adapter', branch: '1-3-stable'
-gem 'activerecord-jdbcmysql-adapter', github: 'jruby/activerecord-jdbc-adapter', branch: '1-3-stable'
+gem 'activerecord-jdbc-adapter', github: 'jruby/activerecord-jdbc-adapter', ref: 'f161ccb'
+gem 'activerecord-jdbcmysql-adapter', github: 'jruby/activerecord-jdbc-adapter', ref: 'f161ccb'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
